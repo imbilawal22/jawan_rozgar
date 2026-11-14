@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rozgar Jawan | پاکستان کا مستند روزگار پورٹل | Real Verified Jobs in Pakistan</title>
+    <meta name="description" content="Rozgar Jawan provides 100% real, researched, and AI-verified job opportunities across Pakistan. Zero fake circulars, direct official application links.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Subtle Ambient Background Glows -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+
+    <!-- Top Announcement Bar -->
+    <aside class="top-announcement">
+        <div class="container announcement-inner">
+            <span class="status-indicator">
+                <span class="status-dot"></span>
+                <strong>AI Pipeline Status:</strong> Researched & Verified Real Opportunities Only
+            </span>
+            <div class="urdu-slogan">روزگار جوان — بااعتماد اور مستند کیریئر مواقع</div>
+        </div>
+    </aside>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="brand-logo">
+                <div class="logo-symbol">
+                    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2.2" stroke-dasharray="4 2"/>
+                        <path d="M10 21L15 11L18 17L22 9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="22" cy="9" r="2" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="brand-name">Rozgar<span class="accent-text">Jawan</span></span>
+                    <span class="brand-sub">VERIFIED CAREERS PK</span>
+                </div>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#jobs-section" class="nav-item active">Jobs Feed</a>
+                <a href="#categories-section" class="nav-item">Sectors</a>
+                <a href="#ai-verification" class="nav-item">AI Verification</a>
+                <a href="#pipeline-setup" class="nav-item">Pipeline Setup</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="icon-btn" title="Toggle Light/Dark Theme" aria-label="Toggle theme">
+                    <svg id="theme-icon-sun" class="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg id="theme-icon-moon" class="theme-icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+
+                <a href="#jobs-section" class="btn btn-primary btn-sm">
+                    <span>Explore Openings</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-badge animate-fade-down">
+                    <span class="badge-dot"></span>
+                    <span>AI-Curated Real Jobs in Pakistan • No Scams, Zero Spam</span>
+                </div>
+
+                <h1 class="hero-title animate-fade-up">
+                    Verified Careers for <br>
+                    <span class="gradient-text">Pakistan's Ambitious Youth</span>
+                </h1>
+
+                <p class="hero-desc animate-fade-up delay-1">
+                    Every vacancy listed on <strong>Rozgar Jawan</strong> is researched and cross-checked against official department gazettes, NTS/PPSC/FPSC circulars, and verified corporate portals using our Gemini AI Pipeline.
+                </p>
+
+                <!-- Search & Filter Card -->
+                <div class="search-card animate-fade-up delay-2">
+                    <div class="search-field">
+                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <input type="text" id="job-search-input" placeholder="Search by title, department (e.g. FIA, State Bank, Software Engineer)...">
+                    </div>
+
+                    <div class="filter-dropdown-group">
+                        <div class="select-wrapper">
+                            <select id="city-filter">
+                                <option value="">All Pakistan (تمام شہر)</option>
+                                <option value="Islamabad">Islamabad / Rawalpindi</option>
+                                <option value="Lahore">Lahore</option>
+                                <option value="Karachi">Karachi</option>
+                                <option value="Peshawar">Peshawar</option>
+                                <option value="Quetta">Quetta</option>
+                                <option value="Multan">Multan</option>
+                                <option value="Faisalabad">Faisalabad</option>
+                                <option value="Remote">Remote / Work from Home</option>
+                            </select>
+                        </div>
+
+                        <div class="select-wrapper">
+                            <select id="type-filter">
+                                <option value="">All Sectors</option>
+                                <option value="Government">Government (BPS Scale)</option>
+                                <option value="Private / Corporate">Private & Corporate</option>
+                                <option value="IT & Tech">IT & Software</option>
+                                <option value="Banking & Finance">Banking & Finance</option>
+                                <option value="Internship">Fresh Graduates & Internships</option>
+                            </select>
+                        </div>
+
+                        <button id="search-action-btn" class="btn btn-primary">
+                            <span>Search Jobs</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Trust Metrics / Highlights -->
+                <div class="hero-metrics animate-fade-up delay-3">
+                    <div class="metric-item">
+                        <div class="metric-val">100%</div>
+                        <div class="metric-lbl">Authentic Sources</div>
+                    </div>
+                    <div class="metric-separator"></div>
+                    <div class="metric-item">
+                        <div class="metric-val">Daily</div>
+                        <div class="metric-lbl">AI Scheduled Research</div>
+                    </div>
+                    <div class="metric-separator"></div>
+                    <div class="metric-item">
+                        <div class="metric-val">Direct</div>
+                        <div class="metric-lbl">Official Apply Portals</div>
+                    </div>
+                    <div class="metric-separator"></div>
+                    <div class="metric-item">
+                        <div class="metric-val">Zero</div>
+                        <div class="metric-lbl">Misleading Circulars</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Category Quick Chips -->
+        <section id="categories-section" class="categories-section">
+            <div class="container">
+                <div class="chips-wrapper">
+                    <button class="chip active" data-category="all">
+                        <span class="chip-dot"></span> All Opportunities
+                    </button>
+                    <button class="chip" data-category="Government">
+                        🏛️ Government & BPS
+                    </button>
+                    <button class="chip" data-category="IT & Tech">
+                        💻 IT & Tech Remote
+                    </button>
+                    <button class="chip" data-category="Banking & Finance">
+                        🏦 Banking & Finance
+                    </button>
+                    <button class="chip" data-category="Engineering">
+                        ⚙️ Engineering
+                    </button>
+                    <button class="chip" data-category="Internship">
+                        🎓 Internships & Freshers
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Jobs Display Section -->
+        <section id="jobs-section" class="jobs-feed-section">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <div class="section-tag">LIVE VERIFIED FEED</div>
+                        <h2 class="section-title">Current Career Openings</h2>
+                        <p class="section-subtitle">Real vacancies checked against genuine advertisements & portals</p>
+                    </div>
+                    <div class="feed-controls">
+                        <span id="job-count-badge" class="count-badge">0 Openings Found</span>
+                        <button id="toggle-sample-btn" class="btn btn-outline btn-sm" title="Preview sample layout or clear back to live data">
+                            <span class="btn-icon">⚡</span>
+                            <span id="sample-btn-text">Preview AI Layout</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Job Listings Container -->
+                <div id="jobs-container" class="jobs-grid">
+                    <!-- Dynamic Job Cards injected via app.js -->
+                </div>
+
+                <!-- Clean Empty State (When no jobs are loaded yet) -->
+                <div id="empty-state" class="empty-state-card hidden">
+                    <div class="empty-icon-box">
+                        <svg viewBox="0 0 48 48" fill="none" class="empty-svg">
+                            <rect x="8" y="8" width="32" height="32" rx="10" stroke="currentColor" stroke-width="2.5" stroke-dasharray="4 4"/>
+                            <path d="M24 16V26M24 32H24.02" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="empty-title">Pipeline Ready — Waiting for First AI Research Batch</h3>
+                    <p class="empty-desc">
+                        As per your instructions, no unverified or fake jobs are pre-populated. The site is pristine and waiting for the automated <strong>Gemini AI Job Researcher</strong> to crawl official Pakistani gazettes and publish real opportunities.
+                    </p>
+                    <div class="empty-actions">
+                        <button id="trigger-sample-view" class="btn btn-primary">
+                            <span>See How Verified Jobs Will Look</span>
+                        </button>
+                        <a href="#pipeline-setup" class="btn btn-outline">
+                            <span>View Automation Setup Guide</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How the Gemini AI Pipeline Works -->
+        <section id="ai-verification" class="how-it-works-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag">THE Rozgar Jawan GUARANTEE</div>
+                    <h2 class="section-title">How Our AI Research Engine Ensures 100% Real Jobs</h2>
+                    <p class="section-subtitle">No copied clickbait. Every opening goes through a 3-step verification cycle.</p>
+                </div>
+
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-num">01</div>
+                        <div class="step-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <path d="M11 8v6M8 11h6"/>
+                            </svg>
+                        </div>
+                        <h4 class="step-title">Autonomous Web Research</h4>
+                        <p class="step-desc">
+                            The automated pipeline searches daily national newspapers (Daily Jang, Dawn, Express), government gazettes, and official department portals across Pakistan.
+                        </p>
+                    </div>
+
+                    <div class="step-card highlight-card">
+                        <div class="step-num">02</div>
+                        <div class="step-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                <path d="M9 12l2 2 4-4"/>
+                            </svg>
+                        </div>
+                        <h4 class="step-title">Gemini AI Truth Verification</h4>
+                        <p class="step-desc">
+                            Gemini AI checks whether the advertisement has an authentic department circular number, valid last date, genuine eligibility criteria, and a real application channel.
+                        </p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-num">03</div>
+                        <div class="step-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="16" y1="2" x2="16" y2="6"/>
+                                <line x1="8" y1="2" x2="8" y2="6"/>
+                                <line x1="3" y1="10" x2="21" y2="10"/>
+                            </svg>
+                        </div>
+                        <h4 class="step-title">Scheduled Daily Publishing</h4>
+                        <p class="step-desc">
+                            Verified jobs are formatted cleanly into <code>jobs.json</code> and automatically published to this website with direct links to official forms or gazette PDFs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Automation Pipeline Details Section -->
+        <section id="pipeline-setup" class="pipeline-section">
+            <div class="container">
+                <div class="pipeline-card">
+                    <div class="pipeline-header">
+                        <div class="pipeline-badge">AUTOMATION READY</div>
+                        <h3>Gemini AI Pipeline Architecture</h3>
+                        <p>We have pre-configured the automated Python researcher script in <code>pipeline/gemini_job_researcher.py</code>. When you receive your Google AI Studio API key, you simply insert it to activate daily scraping and posting.</p>
+                    </div>
+
+                    <div class="code-preview-box">
+                        <div class="code-bar">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="code-title">pipeline/gemini_job_researcher.py</span>
+                        </div>
+                        <pre><code># 1. Provide your Google AI Studio Gemini API Key:
+GEMINI_API_KEY = "YOUR_GOOGLE_AI_STUDIO_API_KEY_HERE"
+
+# 2. Run the Autonomous Job Researcher:
+python pipeline/gemini_job_researcher.py
+
+# 3. Gemini researches Pakistan newspaper gazettes & verified career portals,
+#    validates authenticity, and generates real postings in data/jobs.json.
+# 4. Ready to run via Windows Task Scheduler or Cron daily at your chosen hour!</code></pre>
+                    </div>
+
+                    <div class="pipeline-actions">
+                        <div class="status-box">
+                            <span class="pulse-ring"></span>
+                            <span>Pipeline Script Ready in <code>/pipeline</code> folder</span>
+                        </div>
+                        <span class="pipeline-note">Whenever you provide the API key, we will test-run the pipeline immediately!</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter & Daily Alert Signup -->
+        <section class="newsletter-section">
+            <div class="container newsletter-box">
+                <div class="newsletter-content">
+                    <span class="section-tag">DAILY ALERTS</span>
+                    <h3 class="newsletter-title">Get Daily Verified Jobs on WhatsApp & Email</h3>
+                    <p class="newsletter-sub">No fake WhatsApp forward messages. Only authentic, official career announcements delivered to you.</p>
+                </div>
+                <form id="newsletter-form" class="newsletter-form" onsubmit="event.preventDefault(); alert('Shukriya! Rozgar Jawan daily job alert registration received.');">
+                    <input type="email" placeholder="Enter your email address..." required>
+                    <button type="submit" class="btn btn-primary">Subscribe Free</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Clean Minimalist Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="brand-name">Rozgar<span class="accent-text">Jawan</span></div>
+                <p class="footer-motto">پاکستان کے نوجوانوں کے لیے صاف شفاف اور مستند کیریئر پلیٹ فارم۔</p>
+                <div class="verification-badge">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        <path d="M9 12l2 2 4-4"/>
+                    </svg>
+                    <span>Zero Tolerance for Fraudulent Advertisements</span>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h5>Quick Links</h5>
+                    <a href="#jobs-section">Latest Openings</a>
+                    <a href="#categories-section">Government Jobs</a>
+                    <a href="#categories-section">Private & IT Sector</a>
+                    <a href="#ai-verification">Verification Standards</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Official Portals</h5>
+                    <a href="https://fpsc.gov.pk" target="_blank" rel="noopener">FPSC Islamabad</a>
+                    <a href="https://ppsc.gop.pk" target="_blank" rel="noopener">PPSC Punjab</a>
+                    <a href="https://kppsc.gov.pk" target="_blank" rel="noopener">KPPSC Khyber Pakhtunkhwa</a>
+                    <a href="https://spsc.gov.pk" target="_blank" rel="noopener">SPSC Sindh</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Rozgar Jawan. Empowering Pakistani Youth. Built with Gemini AI Verification Pipeline.</p>
+        </div>
+    </footer>
+
+    <!-- Job Detail Modal (Animated Popup) -->
+    <div id="job-modal" class="modal-overlay hidden" aria-hidden="true" role="dialog">
+        <div class="modal-backdrop"></div>
+        <div class="modal-card">
+            <button id="modal-close-btn" class="modal-close" aria-label="Close details">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+
+            <div class="modal-header">
+                <div class="modal-badges">
+                    <span id="modal-sector-badge" class="badge badge-sector">Sector</span>
+                    <span id="modal-verified-badge" class="badge badge-verified">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                            <path d="M20 6L9 17l-5-5"/>
+                        </svg>
+                        AI Verified Official
+                    </span>
+                </div>
+                <h3 id="modal-job-title" class="modal-title">Job Title</h3>
+                <div id="modal-organization" class="modal-org">Department / Organization</div>
+            </div>
+
+            <div class="modal-body">
+                <div class="modal-specs-grid">
+                    <div class="spec-box">
+                        <span class="spec-label">Location / City</span>
+                        <strong id="modal-location" class="spec-value">-</strong>
+                    </div>
+                    <div class="spec-box">
+                        <span class="spec-label">Scale / Salary</span>
+                        <strong id="modal-scale" class="spec-value">-</strong>
+                    </div>
+                    <div class="spec-box">
+                        <span class="spec-label">Education Required</span>
+                        <strong id="modal-education" class="spec-value">-</strong>
+                    </div>
+                    <div class="spec-box">
+                        <span class="spec-label">Application Deadline</span>
+                        <strong id="modal-deadline" class="spec-value deadline-text">-</strong>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h4>Overview & Responsibilities</h4>
+                    <p id="modal-description" class="modal-text">-</p>
+                </div>
+
+                <div class="modal-section">
+                    <h4>Eligibility & Requirements</h4>
+                    <ul id="modal-requirements" class="modal-list">
+                    </ul>
+                </div>
+
+                <div class="modal-verification-note">
+                    <div class="note-icon">🛡️</div>
+                    <div class="note-text">
+                        <strong>Source Verification:</strong> This opportunity was cross-verified by Gemini AI against the official announcement. Always apply through official channels.
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <a id="modal-apply-btn" href="#" target="_blank" rel="noopener" class="btn btn-primary btn-block">
+                    <span>Proceed to Official Application Portal</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification for Interactions -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <script src="js/animations.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
