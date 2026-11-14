@@ -1,0 +1,44 @@
+name: "Rozgar Jawan — Daily AI Job Research & Publishing"
+
+on:
+  schedule:
+    # Runs daily at 04:00 UTC (09:00 AM Pakistan Standard Time)
+    - cron: '0 4 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  research-and-publish:
+    name: "AI Job Research & Verification"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Gemini AI Job Researcher & Verifier
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python pipeline/gemini_job_researcher.py --run-once
+
+      - name: Commit and Push Verified Jobs Feed
+        run: |
+          git config --global user.name "Rozgar Jawan AI Bot"
+          git config --global user.email "bot@rozgarjawan.pk"
+          git add data/jobs.json data/jobs_backup.json
+          if git diff --staged --quiet; then
+            echo "No changes in jobs feed to commit."
+          else
+            git commit -m "Auto-published daily verified Pakistan jobs [skip ci]"
+            git push origin main
+          fi

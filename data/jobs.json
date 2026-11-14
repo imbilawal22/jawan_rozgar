@@ -1,1 +1,130 @@
-[]
+[
+  {
+    "id": "pk-sbp-og2-2026",
+    "title": "Assistant Director (OG-2) - SBOTS Batch",
+    "organization": "State Bank of Pakistan (SBP)",
+    "city": "Karachi",
+    "sector": "Banking & Finance",
+    "category": "Banking & Finance",
+    "scale": "OG-2 Regular Pay Scale",
+    "education": "Master's or 16-Year Bachelor in Economics / Finance / IT / Data Science",
+    "experience": "Fresh Graduates & up to 2 years experience eligible",
+    "deadline": "2026-12-06",
+    "verified": true,
+    "source": "SBP Official Careers Portal (National Newspaper Ad)",
+    "apply_url": "https://www.sbp.org.pk/careers",
+    "description": "State Bank of Pakistan invites applications from Pakistani nationals for the position of Assistant Director under the State Bank Officers Training Scheme. Selected officers undergo training at the National Institute of Banking and Finance (NIBAF).",
+    "requirements": [
+      "16 years of education with minimum 60% marks or 2.5/4.0 CGPA from HEC recognized institution",
+      "Maximum age 26 years on application cutoff date (3 years relaxation for specified quotas)",
+      "Must qualify national screening and written evaluation test"
+    ]
+  },
+  {
+    "id": "pk-ppsc-inspector-2026",
+    "title": "Sub-Inspector / Assistant Superintendent (BPS-16)",
+    "organization": "Punjab Public Service Commission (PPSC)",
+    "city": "Lahore",
+    "sector": "Government",
+    "category": "Government",
+    "scale": "BPS-16 Regular Gazetted",
+    "education": "Graduate (14 or 16 Years) from HEC recognized university",
+    "experience": "Fresh Graduates welcome (Subject to Physical Fitness Criteria)",
+    "deadline": "2026-11-29",
+    "verified": true,
+    "source": "PPSC Consolidated Official Advertisement No. 2026",
+    "apply_url": "https://www.ppsc.gop.pk",
+    "description": "Punjab Police Department through PPSC announces regular positions of Sub-Inspector across all Punjab regional ranges. Selection is based on written examination and physical measurements.",
+    "requirements": [
+      "Bachelor's Degree (minimum 2nd Division) from an accredited university",
+      "Physical Standard: Height 5' 7\" for male, 5' 2\" for female candidates",
+      "Visual Standards: Normal vision 6/6 with or without glasses",
+      "Valid Punjab Domicile and Computerized CNIC"
+    ]
+  },
+  {
+    "id": "pk-nitb-cloud-dev-2026",
+    "title": "Senior Cloud Full-Stack Engineer",
+    "organization": "National Information Technology Board (NITB)",
+    "city": "Islamabad",
+    "sector": "IT & Tech",
+    "category": "IT & Tech",
+    "scale": "Market Competitive (MP-III Scale)",
+    "education": "BS / MS in Computer Science, Software Engineering or IT",
+    "experience": "3+ years hands-on in React/Next.js, Python/Node, and Cloud Deployments",
+    "deadline": "2026-12-12",
+    "verified": true,
+    "source": "Ministry of IT & Telecom / NITB Official Circular",
+    "apply_url": "https://nitb.gov.pk/careers",
+    "description": "NITB seeks talented software engineers to build sovereign citizen-centric digital portals, identity verification APIs, and high-availability cloud microservices for Pakistan's e-governance infrastructure.",
+    "requirements": [
+      "Demonstrated proficiency in building production-ready REST & GraphQL APIs",
+      "Familiarity with containerization (Docker, Kubernetes) and CI/CD pipelines",
+      "Knowledge of database optimization (PostgreSQL / Redis)",
+      "Strong analytical and collaborative development mindset"
+    ]
+  },
+  {
+    "id": "pk-fpsc-customs-2026",
+    "title": "Appraising / Valuation Officer (BPS-16)",
+    "organization": "Federal Public Service Commission (FPSC)",
+    "city": "Karachi",
+    "sector": "Government",
+    "category": "Government",
+    "scale": "BPS-16 Federal Scale",
+    "education": "Second Class or Grade 'C' Bachelor's Degree with Economics, Commerce, Statistics, Accounting, or Computer Science",
+    "experience": "Fresh Graduates Eligible",
+    "deadline": "2026-12-02",
+    "verified": true,
+    "source": "FPSC General Recruitment Consolidated Advertisement",
+    "apply_url": "https://www.fpsc.gov.pk",
+    "description": "Revenue Division / Federal Board of Revenue (FBR) invites applications through FPSC for Appraising and Valuation Officers posted at major dry ports and seaports across Pakistan.",
+    "requirements": [
+      "Age Limit: 20-28 years plus 5 years general relaxation in upper age limit",
+      "Eligibility open to all provincial quotas including Merit, Punjab, Sindh, KP, Balochistan",
+      "Online application submission through FPSC official portal only"
+    ]
+  },
+  {
+    "id": "pk-engro-trainee-2026",
+    "title": "Graduate Trainee Engineer (GTE 2026)",
+    "organization": "Engro Corporation & Subsidiaries",
+    "city": "Faisalabad",
+    "sector": "Engineering",
+    "category": "Engineering",
+    "scale": "Corporate Engineering Trainee Package",
+    "education": "B.E. / B.Sc in Chemical, Mechanical, Electrical, or Mechatronics Engineering",
+    "experience": "Fresh Graduates (PEC Registered)",
+    "deadline": "2026-12-09",
+    "verified": true,
+    "source": "Engro Corporate Talent Portal",
+    "apply_url": "https://www.engro.com/careers",
+    "description": "Engro's flagship Graduate Trainee Program offers intensive on-site technical rotations, operational plant leadership training, and executive mentorship at premier chemical and fertilizer facilities.",
+    "requirements": [
+      "Mandatory valid PEC (Pakistan Engineering Council) Registration",
+      "Minimum 3.0 CGPA from an accredited engineering university",
+      "Strong leadership potential and willingness to relocate to plant locations"
+    ]
+  },
+  {
+    "id": "pk-hbl-mto-2026",
+    "title": "Management Trainee Officer (The League MTO)",
+    "organization": "Habib Bank Limited (HBL)",
+    "city": "Across Pakistan",
+    "sector": "Banking & Finance",
+    "category": "Banking & Finance",
+    "scale": "Premier Corporate Management Trainee",
+    "education": "Graduation / Post-Graduation in Business, Finance, CS, or Data Analytics",
+    "experience": "Fresh Graduates or candidates with less than 1 year experience",
+    "deadline": "2026-12-19",
+    "verified": true,
+    "source": "HBL Careers & Talent Acquisition Portal",
+    "apply_url": "https://www.hblpeople.com",
+    "description": "HBL The League MTO program prepares future financial leaders of Pakistan. Rotations include Digital Banking, Risk Management, Corporate Advisory, and Islamic Banking operations.",
+    "requirements": [
+      "Minimum CGPA of 3.0 or equivalent percentage from recognized business schools",
+      "Demonstrated drive for innovation, digital payments, and fintech transformation",
+      "Excellent presentation, verbal, and numerical reasoning capabilities"
+    ]
+  }
+]
