@@ -12,17 +12,17 @@
     "deadline": "2026-12-07",
     "verified": true,
     "source": "FPSC Consolidated Advertisement No. 11/2026",
-    "apply_url": "https://online.fpsc.gov.pk",
-    "description": "The Federal Public Service Commission is hiring legal professionals for various federal ministries. Candidates will be responsible for drafting legal opinions and representing the department in litigation matters.",
+    "apply_url": "https://online.fpsc.gov.pk/",
+    "description": "The candidate will be responsible for providing legal counsel, drafting legal documents, and representing the department in litigation matters. The position is open to candidates across Pakistan based on provincial quotas.",
     "requirements": [
-      "Must be a Pakistani national",
-      "Age limit 22-30 years plus 5 years general relaxation",
-      "Must be registered with the Pakistan Bar Council"
+      "Age limit: 22-30 years plus 5 years general relaxation",
+      "Must possess a valid enrollment with the Bar Council",
+      "Must pass the screening test conducted by FPSC"
     ]
   },
   {
-    "id": "pk-sbp-ogd-2026",
-    "title": "OGD-2 (Officer Grade)",
+    "id": "pk-sbp-og-2-2026",
+    "title": "Officer Grade-2 (OG-2)",
     "organization": "State Bank of Pakistan (SBP)",
     "city": "Karachi",
     "sector": "Banking & Finance",
@@ -30,19 +30,19 @@
     "scale": "Market Competitive",
     "education": "Master's Degree in Economics, Finance, or Business Administration",
     "experience": "Fresh Graduates Eligible",
-    "deadline": "2026-12-15",
+    "deadline": "2026-11-30",
     "verified": true,
     "source": "SBP Career Portal",
-    "apply_url": "https://www.sbp.org.pk/careers/index.asp",
-    "description": "State Bank of Pakistan is seeking young, energetic professionals for its Officer Grade-2 program. Selected candidates will undergo rigorous training in central banking operations and policy analysis.",
+    "apply_url": "https://www.sbp.org.pk/careers/status.asp",
+    "description": "Selected candidates will undergo rigorous training in central banking operations, monetary policy, and financial regulation. The role involves data analysis and supporting departmental objectives at the SBP Head Office.",
     "requirements": [
       "Minimum 16 years of education from HEC recognized institution",
-      "Maximum age 28 years as of application deadline",
-      "Minimum 3.0 CGPA or 60% marks in annual system"
+      "Maximum age 28 years as of the closing date",
+      "Minimum 3.0 CGPA or 60% marks in the final degree"
     ]
   },
   {
-    "id": "pk-ppsc-lect-2026",
+    "id": "pk-ppsc-lecturer-2026",
     "title": "Lecturer (Computer Science)",
     "organization": "Punjab Public Service Commission (PPSC)",
     "city": "Lahore",
@@ -54,33 +54,33 @@
     "deadline": "2026-12-05",
     "verified": true,
     "source": "PPSC Official Website",
-    "apply_url": "https://www.ppsc.gop.pk",
-    "description": "PPSC invites applications for the position of Lecturer in Computer Science for various government colleges across Punjab. The role involves academic instruction and curriculum development.",
+    "apply_url": "https://www.ppsc.gop.pk/",
+    "description": "The incumbent will be responsible for teaching undergraduate students at government colleges in Punjab. Duties include curriculum delivery, student assessment, and departmental administrative tasks.",
     "requirements": [
-      "Master's degree (1st Division) in relevant subject",
-      "Age limit 21-28 years plus 5 years relaxation for males",
-      "Domicile of Punjab province is mandatory"
+      "Minimum 2nd Division Master's degree in relevant subject",
+      "Age limit: 21-28 years for male, 21-33 years for female",
+      "Domicile: Punjab Province"
     ]
   },
   {
-    "id": "pk-systems-se-2026",
-    "title": "Senior Software Engineer",
+    "id": "pk-systems-ltd-se-2026",
+    "title": "Software Engineer (Java/Spring Boot)",
     "organization": "Systems Limited",
     "city": "Lahore",
     "sector": "IT & Tech",
     "category": "IT & Tech",
     "scale": "Market Competitive",
     "education": "BS Computer Science / Software Engineering",
-    "experience": "4-6 years",
-    "deadline": "2026-12-20",
+    "experience": "2-4 years",
+    "deadline": "2026-12-15",
     "verified": true,
     "source": "Systems Ltd Career Portal",
     "apply_url": "https://systemsltd.com/careers",
-    "description": "Systems Limited is looking for a Senior Software Engineer to lead development teams in enterprise-level software projects. The role requires expertise in Java, .NET, or React frameworks.",
+    "description": "Seeking a skilled software engineer to develop and maintain enterprise-level applications. The role involves working in an agile environment with cross-functional teams to deliver high-quality code.",
     "requirements": [
-      "Strong proficiency in full-stack development",
-      "Experience with Agile/Scrum methodologies",
-      "Excellent problem-solving and communication skills"
+      "Proficiency in Java, Spring Boot, and Microservices architecture",
+      "Experience with SQL and NoSQL databases",
+      "Strong problem-solving and communication skills"
     ]
   },
   {
@@ -93,15 +93,15 @@
     "scale": "Market Competitive",
     "education": "BBA/MBA/BS Finance",
     "experience": "Fresh Graduates Eligible",
-    "deadline": "2026-12-10",
+    "deadline": "2026-11-25",
     "verified": true,
-    "source": "Meezan Bank Career Portal",
-    "apply_url": "https://www.meezanbank.com/careers",
-    "description": "Meezan Bank is hiring high-potential graduates for its MTO program. This program offers a fast-track career path in Islamic Banking operations and branch management.",
+    "source": "Meezan Bank Careers",
+    "apply_url": "https://www.meezanbank.com/careers/",
+    "description": "A fast-track program designed to groom future leaders in Islamic Banking. Trainees will rotate through various departments including Retail, Corporate, and Treasury.",
     "requirements": [
-      "Minimum 16 years of education",
       "Maximum age 26 years",
-      "Strong analytical and interpersonal skills"
+      "Minimum 3.0 CGPA or 70% marks",
+      "Strong interest in Islamic Banking principles"
     ]
   },
   {
@@ -111,18 +111,18 @@
     "city": "Islamabad",
     "sector": "IT & Tech",
     "category": "IT & Tech",
-    "scale": "Market Competitive",
+    "scale": "BPS-18",
     "education": "BS/MS Computer Science",
-    "experience": "3 years",
-    "deadline": "2026-11-30",
+    "experience": "5 years",
+    "deadline": "2026-12-10",
     "verified": true,
     "source": "NITB Official Portal",
     "apply_url": "https://nitb.gov.pk/jobs",
-    "description": "NITB is seeking a skilled Full Stack Developer to contribute to national-level digital transformation projects. The role involves developing and maintaining government web applications.",
+    "description": "Responsible for developing and maintaining government digital portals and e-governance applications. The role requires expertise in modern web frameworks and secure coding practices.",
     "requirements": [
-      "Expertise in Python/Django or Node.js",
-      "Experience with cloud infrastructure (AWS/Azure)",
-      "Must be a Pakistani citizen"
+      "Expertise in React.js, Node.js, and PostgreSQL",
+      "Experience in cloud infrastructure (AWS/Azure)",
+      "Must be a Pakistani National"
     ]
   }
 ]
